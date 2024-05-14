@@ -1,52 +1,189 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.item{
-  background-color: pink;
-  color: white;
-  border: 2px solid red;
-  border-radius: 8px;
-  padding: 5px 6px;
-  cursor: pointer;
 
-}
-.item1 {
-  width: 300px;
-  min-height: 200px;
-  background-color: aqua;
-  margin: auto;
-  display: none;
-  border: 1px solid black;
-}
-.item2 {
+.arxafon {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://preview.colorlib.com/theme/zeedapp/img/bg/slider-bg.jpg.webp);
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+
+
 }
 
-.item3 {
-  padding: 10px;
-  border-bottom: 1px solid black;
+.qutu {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 120px;
 }
 
-.item4 {
-  padding: 10px;
-  text-align: right;
+.bashliq>h1,
+p,
+button {
+  margin: 30px 0;
 }
 
-.close {
-  padding: 0px 10px;
+.bashliq>button:hover {
+  background-color: #aebcb9;
+  color: white;
   border: 0;
-  background-color: aqua;
-  cursor: pointer;
   font-weight: bolder;
 }
 
-.button:hover {
-  background-color: aqua;
+.bashliq button {
+  padding: 15px;
+  border: 0;
+  font-weight: bolder;
+}
+
+.ikinci {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+}
+
+
+.box>div>h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.box>div>span {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.bashliq button:hover {
+  background-color: rgb(44, 44, 44);
   color: white;
-  cursor: pointer;
+  border: 0;
+  font-weight: bolder;
+}
+
+.uchuncu {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.esas2 {
+  width: 30%;
+  min-height: 300px;
+  background-color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+}
+
+.esas {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px 25px;
+  margin: 0 auto;
+}
+
+.esas2>p {
+  text-align: center;
+  color: #f16266;
+  margin: 15px;
+}
+
+.esas2 img {
+  width: 100%;
+  height: 80%;
+}
+
+.box {
+  /* width: 100%; */
+  min-height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 19px rgba(0, 0, 0, 0.3);
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  transform: translateY(-60px);
+  gap: 20px 40px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  z-index: 3;
+
+}
+
+span {
+  font-weight: 600px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 60px;
+
+}
+
+.esas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 50px;
+
+}
+
+
+.end {
+  background: #f9f9f9;
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer2 {
+  width: 100%;
+  height: 300px;
+  background-color: #f9f9f9;
+}
+
+.end {
+  text-align: center;
+  padding-top: 40px !important;
+  margin-top: 40px;
+}
+
+.end>button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 0;
+}
+
+.end>button:hover {
+  background-color: #444;
+  border-radius: 2px;
+  color: white;
+}
+
+.end>span {
+  color: #f16266;
+}
+
+.end>a {
+  text-decoration: none;
+  color: black;
 }
